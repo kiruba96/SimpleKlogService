@@ -46,6 +46,8 @@ public class MyService extends Service {
     @Override
     public void onDestroy() {
         Log.d("Service", "stopped");
+        super.onDestroy();
+        observer.stopWatching();
     }
 
     @Nullable

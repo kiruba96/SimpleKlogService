@@ -94,7 +94,6 @@ public class MainActivity extends AppCompatActivity {
                 {
                     Log.d("KP: ","Package :"+ ininfo.getPackageName());
                 }
-
                 if (subtype==null)
                 {
                     try
